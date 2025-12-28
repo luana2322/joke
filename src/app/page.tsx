@@ -42,15 +42,15 @@ export default function Home() {
   };
 
   return (
-    <div className="container" style={{ maxHeight: '90vh', overflowY: 'auto', padding: '40px 20px' }}>
+    <div className="container" style={{ maxHeight: '95vh', overflowY: 'auto', padding: '60px 20px' }}>
       <h1 className="title">Fuck you</h1>
 
-      <div className="image-wrapper" style={{ marginBottom: '20px' }}>
+      <div className="image-wrapper" style={{ margin: '2rem 0' }}>
         <Image
           src="/joke.jpg"
           alt="Joke"
-          width={400}
-          height={400}
+          width={600}
+          height={600}
           priority
           style={{
             maxWidth: '100%',
