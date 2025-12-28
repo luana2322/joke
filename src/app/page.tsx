@@ -42,7 +42,7 @@ export default function Home() {
   };
 
   return (
-    <div className="container" style={{ maxHeight: '95vh', overflowY: 'auto', padding: '60px 20px' }}>
+    <div className="container" style={{ width: '100%', maxWidth: '800px', padding: '2rem 1rem' }}>
       <h1 className="title">Fuck you</h1>
 
       <div className="image-wrapper" style={{ margin: '2rem 0' }}>
